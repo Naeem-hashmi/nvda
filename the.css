@@ -1,0 +1,68 @@
+a:link {
+color:blue;
+text-decoration:none;
+}
+
+A:visited {
+color:red;
+text-decoration:none;
+}
+
+A:hover {
+background-color:black;
+color:white;
+text-decoration:none;
+}
+
+A:active {
+background-color:white;
+color:black;
+text-decoration:none;
+}
+
+lu {
+	list-style:none;
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(75px, 1fr));
+grid-template-rows:repeat(3, minmax(40px, auto));
+padding:10px;
+marjen:0px;
+justify-content: center;
+justify-items : center;
+}
+.one {
+background-color:gold;
+grid-column:1/5;
+}
+
+.three {
+	background-color:yellow;
+	grid-column:1/5;
+}
+.nineteen {
+	width:100%;
+	background-color:green;
+	color:white;
+	padding:25px;
+	}
+
+.mane {
+  display: grid;
+  gap: 10px;
+padding:10px;
+marjen:0px;  
+  grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(2, minmax(70px, auto));
+}
+
+.body {
+	display:grid;
+	gap:25px;
+padding:20px;
+marjen:0px;
+grid-template-columns: repeat( auto-fit, minmax(320px, 1fr) );
+   grid-template-rows: repeat(15, minmax(200px, auto));
+justify-content: center;
+  
+  }
+
